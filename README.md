@@ -88,7 +88,7 @@ El sistema incluye mocks para:
    npm run build
    ```
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 src/
@@ -110,7 +110,7 @@ src/
 
 ```
 
-## 📝 Notas sobre MSW
+## Notas sobre MSW
 
 - MSW solo se activa en modo desarrollo (`import.meta.env.DEV`)
 - Los datos de usuario y de productos se persisten en localStorage para simular una base de datos
