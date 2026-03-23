@@ -1,1 +1,20 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --default-transition-duration: 200ms;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+  }
+}
+html.dark {
+  color-scheme: dark;
+}
+
+html.light {
+  color-scheme: light;
+}
